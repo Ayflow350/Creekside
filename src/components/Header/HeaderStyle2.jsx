@@ -44,25 +44,7 @@ export default function HeaderStyle2({ logoSrc, variant, btnText, btnUrl }) {
                   >
                     <li className="menu-item-has-children">
                       <Link to="/">Home</Link>
-                      <DropDown>
-                        <ul>
-                          <li>
-                            <Link to="/">Home Version-1</Link>
-                          </li>
-                          <li>
-                            <Link to="/home-v2">Home Version-2</Link>
-                          </li>
-                          <li>
-                            <Link to="/home-v3">Home Version-3</Link>
-                          </li>
-                          <li>
-                            <Link to="/home-v4">Home Version-4</Link>
-                          </li>
-                          <li>
-                            <Link to="/home-v5">Home Version-5</Link>
-                          </li>
-                        </ul>
-                      </DropDown>
+                     
                     </li>
                     <li>
                       <Link to="/about">About</Link>

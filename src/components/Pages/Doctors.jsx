@@ -17,7 +17,7 @@ const teamData = [
       { icon: 'fa6-brands:linkedin-in', href: '/about' },
       { icon: 'fa6-brands:twitter', href: '/about' },
     ],
-    category: 'cardiology',
+    category: 'Directors',
     href: '/doctors/doctor-details',
   },
   {
@@ -32,7 +32,7 @@ const teamData = [
       { icon: 'fa6-brands:linkedin-in', href: '/about' },
       { icon: 'fa6-brands:twitter', href: '/about' },
     ],
-    category: 'emergency',
+    category: 'Support Professionals',
     href: '/doctors/doctor-details',
   },
   {
@@ -47,7 +47,7 @@ const teamData = [
       { icon: 'fa6-brands:linkedin-in', href: '/about' },
       { icon: 'fa6-brands:twitter', href: '/about' },
     ],
-    category: 'pediatric',
+    category: 'Nurses',
     href: '/doctors/doctor-details',
   },
   {
@@ -77,7 +77,7 @@ const teamData = [
       { icon: 'fa6-brands:linkedin-in', href: '/about' },
       { icon: 'fa6-brands:twitter', href: '/about' },
     ],
-    category: 'cardiology',
+    category: 'Directors',
     href: '/doctors/doctor-details',
   },
   {
@@ -92,7 +92,7 @@ const teamData = [
       { icon: 'fa6-brands:linkedin-in', href: '/about' },
       { icon: 'fa6-brands:twitter', href: '/about' },
     ],
-    category: 'psychiatry',
+    category: 'Personal Care',
     href: '/doctors/doctor-details',
   },
   {
@@ -107,7 +107,7 @@ const teamData = [
       { icon: 'fa6-brands:linkedin-in', href: '/about' },
       { icon: 'fa6-brands:twitter', href: '/about' },
     ],
-    category: 'emergency',
+    category: 'Support Professionals',
     href: '/doctors/doctor-details',
   },
   {
@@ -137,7 +137,7 @@ const teamData = [
       { icon: 'fa6-brands:linkedin-in', href: '/about' },
       { icon: 'fa6-brands:twitter', href: '/about' },
     ],
-    category: 'psychiatry',
+    category: 'Personal Care',
     href: '/doctors/doctor-details',
   },
   

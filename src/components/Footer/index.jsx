@@ -8,7 +8,7 @@ const menuDataOne = [
   { title: 'About Us', href: '/about' },
   { title: 'Careers', href: '/departments' },
   { title: 'Our service ', href: '/doctors' },
-  { title: 'Join Our Team', href: '/timetable' },
+  { title: 'Join Our Team', href: '/' },
   { title: 'Testimonials', href: '/' },
 ];
 const menuDataTwo = [
@@ -35,7 +35,7 @@ export default function Footer() {
             alt="Logo Icon"
             className="cs_footer_brand_icon"
           />
-          <h2 className="cs_footer_brand_text"></h2>
+      
         </div>
       </div>
       <div className="cs_footer_main">

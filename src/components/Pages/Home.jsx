@@ -1,8 +1,6 @@
 import React from 'react';
 import HeroStyle2 from '../Hero/HeroStyle2';
 import AboutSection from '../Section/AboutSection';
-import BrandsSection from '../Section/BrandsSection';
-import Banner from '../Section/BannerSection';
 import Section from '../Section';
 import FeaturesSection from '../Section/FeaturesSection';
 import TestimonialSection from '../Section/TestimonialSection';
@@ -51,16 +49,6 @@ const featureListData = [
     subTitle:
       'We believe in working collaboratively with our team members and other healthcare professionals to provide comprehensive and effective care to our patients.',
   },
-];
-const brandData = [
-  { imgUrl: 'images/brand_1.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_2.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_3.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_4.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_5.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_6.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_7.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_8.png', imgAlt: 'Brand' },
 ];
 const faqData = [
   {
@@ -115,32 +103,6 @@ const blogData = [
     socialShare: true,
   },
 ];
-const awardData = [
-  {
-    title: 'Malcolm Baldrige National Quality Award',
-    subTitle:
-      'This award recognizes healthcare organizations that have demonstrated excellence in leadership, strategic planning, customer and employee satisfaction, and operational efficiency.',
-    iconUrl: 'images/icons/award.svg',
-  },
-  {
-    title: 'HIMSS Davies Award',
-    subTitle:
-      'This award recognizes healthcare organizations that have used health information technology to improve patient outcomes and reduce costs.',
-    iconUrl: 'images/icons/award.svg',
-  },
-  {
-    title: 'Healthgrades National’s Best Hospital',
-    subTitle:
-      'This recognition is given to hospitals that have achieved high ratings for clinical quality and patient safety across multiple specialties and procedures.',
-    iconUrl: 'images/icons/award.svg',
-  },
-  {
-    title: 'Joint Commission Gold Seal of Approval',
-    subTitle:
-      'This recognition is given to hospitals that have met rigorous standards for patient safety and quality of care.',
-    iconUrl: 'images/icons/award.svg',
-  },
-];
 const departmentData = [
   {
     title: 'Nursing',
@@ -176,9 +138,7 @@ export default function Home() {
     <>
      <HeroStyle2
         title="Compassionate care, exceptional results."
-        subTitle="Our team of experienced healthcare professionals are
-        committed to providing quality care and personalized attention to
-        our patients."
+        subTitle=" Is for our individuals to live a fulfilling and quality life. We facilitate this vision by providing first-class caring and supportive services to individuals. "
         bgUrl={bg}
         imgUrl="/images/home_2/oldies.jpeg"
         videoBtnText="See how we work"
@@ -211,14 +171,15 @@ export default function Home() {
         <AboutSection
           imgUrl={care}
            spiningImgUrl="/images/home_1/about_mini.svg"
-          title="About Us"
-          subTitle="CREEKSIDE COOPERATION"
+          title="Our Mission"
+          subTitle="CREEKSIDE CORPORATION INC."
           featureList={[
             {
               featureListTitle:
-                'Ceekside is a team of experienced Health care professionals',
+                'CCI is a progressive nonprofit agency providing a wide range of community support ',
               featureListSubTitle:
-                'Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms.',
+                'We treat everyone with dignity and respect, love, and a family environment. We strive to ensure that all individuals live a quality life.'
+                ,
             },
           ]}
         />
